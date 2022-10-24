@@ -3,7 +3,7 @@ A sha-256 brute force tester to find leading zeroes
 
 - Update NONCE with the starting nonce
 - Update data with the data string to append nonce to
-- Update newHash[:x] == '': with x as the number of leading bits to check, and '' with the string to search for in leading bits.
+- Update newHash[:x] == 's': with x as the number of leading bits to check, and 's' with the string to search for in leading bits.
 
 Outputs to console as well as an output.txt file on completion.
 
